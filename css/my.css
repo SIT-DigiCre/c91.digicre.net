@@ -1,0 +1,73 @@
+/* メインcontainerを最大1170pxに指定 */
+/* Bootstrapのコンテンツエリアが最大1170pxのため */
+.main-container{
+    position:relative;
+    max-width: 1170px;
+    margin-left:auto;margin-right:auto;
+    padding-top:30px;
+}
+
+main-v{
+      background: #FFFFFF;
+}
+    
+main img{
+    max-width: 100%;
+    height: auto;
+}
+    
+.main-img{
+    display: block;
+}   
+/*ここから自分で書いてみたとこ*/
+
+body{
+    background: #F2F2F2;
+}
+
+img{
+    padding: 20px;
+}
+
+#teckbook,#chiruno,#SETUNA,#illustration,#CD_winter,#CD_shibasai1,#CD_shibasai2{
+    padding:20px;
+    }
+
+#place{
+    background: #FFFFFF;
+    margin:0px;
+    padding:30px;
+    }
+
+.table{
+    text-align: center;
+    display:table;
+}
+.list-group{
+    padding: 20px;
+}
+.list-group-item{
+    background: #F2F2F2;
+}
+
+
+/*フォントサイズの調整*/
+
+h1{
+    font-size: 300%;
+}
+li h4{
+    font-size: 180%;
+}
+li p{
+    font-size: 120%;
+}
+p{
+    font-size: 140%;
+}
+
+.smallchar{
+    font-size: 50%;
+}
+
+/*ここまでフォントサイズの調整*/
